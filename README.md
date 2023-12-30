@@ -51,7 +51,7 @@ anonymously in real-time using a terminal.
 
 Certainly! Here's the updated client installation section in the README.md, emphasizing the need to customize the Socket.io server URL:
 
-```markdown
+
 ### Client Installation
 
 1. **Clone the GitHub repository on the client machine:**
