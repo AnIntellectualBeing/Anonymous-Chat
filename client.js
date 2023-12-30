@@ -1,7 +1,13 @@
+// Node.js Chat Client
+
+// Import required modules
 const readline = require('readline');
 const io = require('socket.io-client');
 
-const socket = io('your-link');
+// Connect to the Socket.io server
+const socket = io('https://server.com');
+
+// Create a readline interface for user input
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
@@ -10,6 +16,7 @@ const rl = readline.createInterface({
 // Generate a unique identifier for this client
 const clientId = Math.random().toString(36).substring(7);
 
+// Display a welcome message
 console.log('Welcome to the Chat!');
 
 // Listen for incoming messages
@@ -29,7 +36,11 @@ rl.on('line', (input) => {
   socket.emit('message', { sender: `You[${clientId}]`, message: input.trim() });
 });
 
+// Handle chat closure
 rl.on('close', () => {
   console.log('Chat closed. Goodbye!');
   process.exit(0);
 });
+
+// GitHub https://github.com/AnIntellectualBeing/Anonymous-Chat
+//AnIntellectualBeing
