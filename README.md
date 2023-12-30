@@ -1,59 +1,106 @@
-# Anonymous-Chat
-Anonymous Chat - Node.js Chat Client
+```markdown
+# Anonymous Chat - Node.js Chat Application
 
-Welcome to the Anonymous Chat Node.js Client! This simple chat application allows users to communicate anonymously in real-time using a terminal.
-Getting Started
-Prerequisites
+Welcome to the Anonymous Chat Node.js Application! This simple chat allows users to communicate anonymously in real-time using a terminal.
 
-    Node.js and npm installed on your machine.
-    Access to a Socket.io server. Replace 'https://server.com' in the code with the actual URL of your Socket.io server.
+## Server Setup
 
-Installation
+### Prerequisites
 
-    Clone the GitHub repository:
+- Node.js and npm installed on your machine.
 
-    bash
+### Server Installation
 
-git clone https://github.com/AnIntellectualBeing/Anonymous-Chat.git
+1. **Clone the GitHub repository:**
 
-Navigate to the Chat Client directory:
+   ```bash
+   git clone https://github.com/AnIntellectualBeing/Anonymous-Chat.git
+   ```
 
-bash
+2. **Navigate to the Server directory:**
 
-cd Anonymous-Chat/Client
+   ```bash
+   cd Anonymous-Chat
+   ```
 
-Install dependencies:
+3. **Install server dependencies (including Socket.io):**
 
-bash
+   ```bash
+   # Update the package list and install Node.js and npm
+   sudo apt update
+   sudo apt install nodejs npm
 
-    npm install
+   # Install socket.io as a dependency
+   npm install socket.io
+   ```
 
-Usage
+4. **Running the Server:**
 
-    Run the Chat Client:
+   ```bash
+   node server.js
+   ```
 
-    bash
+   The server will be running on a default port (e.g., 3000).
 
-    node chat-client.js
+## Client Setup
 
-    Enter your messages in the terminal and press Enter to send.
+### Prerequisites
 
-    To exit the chat, simply close the terminal or use the predefined exit command.
+- Node.js and npm installed on the client machine.
 
-Features
+### Client Installation
 
-    Real-time anonymous chat.
-    Simple command-line interface.
-    Unique client identifiers for each user.
+1. **Clone the GitHub repository on the client machine:**
 
-Additional Notes
+   ```bash
+   git clone https://github.com/AnIntellectualBeing/Anonymous-Chat.git
+   ```
 
-    For security reasons, it is recommended to use this application in a trusted environment.
-    Customize the Socket.io server URL in the code based on your deployment.
+2. **Navigate to the Client directory:**
 
-Contributing
+   ```bash
+   cd Anonymous-Chat
+   ```
 
-Feel free to contribute to the project by submitting issues or pull requests on the GitHub repository.
-License
+3. **Install client dependencies (including Socket.io-client and readline):**
 
-This project is licensed under the MIT License.
+   ```bash
+   # Update the package list and install Node.js and npm
+   sudo apt update
+   sudo apt install nodejs npm
+
+   # Install socket.io-client and readline as dependencies
+   npm install socket.io-client readline
+   ```
+
+### Running the Client
+
+1. **Start the client:**
+
+   ```bash
+   node chat-client.js
+   ```
+
+2. **Start chatting!**
+
+## Features
+
+- Real-time anonymous chat.
+- Simple command-line interface.
+- Unique client identifiers for each user.
+
+## Additional Notes
+
+- For security reasons, it is recommended to use this application in a trusted environment.
+- Customize the Socket.io server URL in the code based on your deployment.
+
+## Contributing
+
+Feel free to contribute to the project by submitting issues or pull requests on the [GitHub repository](https://github.com/AnIntellectualBeing/Anonymous-Chat).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+```
+
+This order should provide a clear sequence for users to set up both the server and client. Users will now install Node.js and npm before navigating to the respective directories.
