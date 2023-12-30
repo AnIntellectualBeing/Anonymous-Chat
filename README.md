@@ -49,6 +49,9 @@ anonymously in real-time using a terminal.
 
 - Node.js and npm installed on the client machine.
 
+Certainly! Here's the updated client installation section in the README.md, emphasizing the need to customize the Socket.io server URL:
+
+```markdown
 ### Client Installation
 
 1. **Clone the GitHub repository on the client machine:**
@@ -60,7 +63,7 @@ anonymously in real-time using a terminal.
 2. **Navigate to the Client directory:**
 
    ```bash
-   cd Anonymous-Chat
+   cd Anonymous-Chat/Client
    ```
 
 3. **Install client dependencies (including Socket.io-client and readline):**
@@ -74,6 +77,21 @@ anonymously in real-time using a terminal.
    npm install socket.io-client readline
    ```
 
+4. **Edit the Socket.io server URL:**
+
+   Open `chat-client.js` in a text editor and locate the following line:
+
+   ```javascript
+   const socket = io('https://server.com');
+   ```
+
+   Replace `'https://server.com'` with the URL of your Socket.io server,
+    for example, if you are using ngrok:
+
+   ```javascript
+   const socket = io('https://your-ngrok-url');
+   ```
+
 ### Running the Client
 
 1. **Start the client:**
@@ -83,7 +101,7 @@ anonymously in real-time using a terminal.
    ```
 
 2. **Start chatting!**
-
+```
 ## Features
 
 - Real-time anonymous chat.
