@@ -1,4 +1,4 @@
-```markdown
+
 # Anonymous Chat - Node.js Chat Application
 
 Welcome to the Anonymous Chat Node.js Application! This simple chat allows users to communicate
