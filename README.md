@@ -14,19 +14,19 @@ anonymously in real-time using a terminal.
 
 1. **Clone the GitHub repository:**
 
-   ```bash
+   ```
    git clone https://github.com/AnIntellectualBeing/Anonymous-Chat.git
    ```
 
 2. **Navigate to the Server directory:**
 
-   ```bash
+   ```
    cd Anonymous-Chat
    ```
 
 3. **Install server dependencies (including Socket.io):**
 
-   ```bash
+   ```
    # Update the package list and install Node.js and npm
    sudo apt update
    sudo apt install nodejs npm
@@ -37,7 +37,7 @@ anonymously in real-time using a terminal.
 
 4. **Running the Server:**
 
-   ```bash
+   ```
    node server.js
    ```
 
@@ -56,19 +56,19 @@ Certainly! Here's the updated client installation section in the README.md, emph
 
 1. **Clone the GitHub repository on the client machine:**
 
-   ```bash
+   ```
    git clone https://github.com/AnIntellectualBeing/Anonymous-Chat.git
    ```
 
 2. **Navigate to the Client directory:**
 
-   ```bash
+   ```
    cd Anonymous-Chat
    ```
 
 3. **Install client dependencies (including Socket.io-client and readline):**
 
-   ```bash
+   ```
    # Update the package list and install Node.js and npm
    sudo apt update
    sudo apt install nodejs npm
@@ -96,7 +96,7 @@ Certainly! Here's the updated client installation section in the README.md, emph
 
 1. **Start the client:**
 
-   ```bash
+   ```
    node chat-client.js
    ```
 
