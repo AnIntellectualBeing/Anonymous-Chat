@@ -1,7 +1,8 @@
 ```markdown
 # Anonymous Chat - Node.js Chat Application
 
-Welcome to the Anonymous Chat Node.js Application! This simple chat allows users to communicate anonymously in real-time using a terminal.
+Welcome to the Anonymous Chat Node.js Application! This simple chat allows users to communicate
+anonymously in real-time using a terminal.
 
 ## Server Setup
 
@@ -96,7 +97,8 @@ Welcome to the Anonymous Chat Node.js Application! This simple chat allows users
 
 ## Contributing
 
-Feel free to contribute to the project by submitting issues or pull requests on the [GitHub repository](https://github.com/AnIntellectualBeing/Anonymous-Chat).
+Feel free to contribute to the project by submitting issues or pull requests on 
+the [GitHub repository](https://github.com/AnIntellectualBeing/Anonymous-Chat).
 
 ## License
 
