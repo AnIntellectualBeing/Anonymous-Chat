@@ -105,4 +105,6 @@ the [GitHub repository](https://github.com/AnIntellectualBeing/Anonymous-Chat).
 This project is licensed under the [MIT License](LICENSE).
 ```
 
-This order should provide a clear sequence for users to set up both the server and client. Users will now install Node.js and npm before navigating to the respective directories.
+This order should provide a clear sequence for users to set up both the server
+and client. Users will now install Node.js and npm before navigating to the
+respective directories.
