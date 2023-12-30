@@ -63,7 +63,7 @@ Certainly! Here's the updated client installation section in the README.md, emph
 2. **Navigate to the Client directory:**
 
    ```bash
-   cd Anonymous-Chat/Client
+   cd Anonymous-Chat
    ```
 
 3. **Install client dependencies (including Socket.io-client and readline):**
@@ -79,7 +79,7 @@ Certainly! Here's the updated client installation section in the README.md, emph
 
 4. **Edit the Socket.io server URL:**
 
-   Open `chat-client.js` in a text editor and locate the following line:
+   Open `client.js` in a text editor and locate the following line:
 
    ```javascript
    const socket = io('https://server.com');
