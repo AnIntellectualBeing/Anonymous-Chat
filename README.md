@@ -106,23 +106,23 @@ anonymously in real-time using a terminal.
 
 2. **Start chatting!**
 ```
-## Features
+# Features
 
 - Real-time anonymous chat.
 - Simple command-line interface.
 - Unique client identifiers for each user.
 
-## Additional Notes
+# Additional Notes
 
 - For security reasons, it is recommended to use this application in a trusted environment.
 - Customize the Socket.io server URL in the code based on your deployment.
 
-## Contributing
+# Contributing
 
 Feel free to contribute to the project by submitting issues or pull requests on 
 the [GitHub repository](https://github.com/AnIntellectualBeing/Terminal-Whisper).
 
-## License
+# License
 
 This project is licensed under the [MIT License](LICENSE).
 ```
