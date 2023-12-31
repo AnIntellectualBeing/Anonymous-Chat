@@ -120,7 +120,7 @@ anonymously in real-time using a terminal.
 # Contributing
 
 Feel free to contribute to the project by submitting issues or pull requests on 
-the [GitHub repository](https://github.com/AnIntellectualBeing/Terminal-Whisper).
+the https://github.com/AnIntellectualBeing/Terminal-Whisper.
 
 # License
 
