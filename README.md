@@ -22,31 +22,21 @@ anonymously in real-time using a terminal.
    git clone https://github.com/AnIntellectualBeing/Terminal-Whisper.git
    ```
 
-2. **Navigate to the Server directory:**
 
-   ```
+2. **Navigate to the Server directory:**
+   ```bash
    cd Terminal-Whisper
    ```
 
 3. **Install server dependencies (including Socket.io):**
-
-   
-   # Update the package list and install Node.js and npm
-   ```
+   ```bash
    sudo apt update
-   
-   ```
-    sudo apt install nodejs npm
-   ```
-
-   # Install socket.io as a dependency
-   ```
+   sudo apt install nodejs npm
    npm install socket.io
    ```
 
 5. **Running the Server:**
-
-   ```
+   ```bash
    node server.js
    ```
 
