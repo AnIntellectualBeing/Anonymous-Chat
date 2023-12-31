@@ -32,14 +32,18 @@ anonymously in real-time using a terminal.
 
    ```
    # Update the package list and install Node.js and npm
+   ```
    sudo apt update
+   ```
+   ```
    sudo apt install nodejs npm
-
-   # Install socket.io as a dependency
-   npm install socket.io
    ```
 
-4. **Running the Server:**
+   # Install socket.io as a dependency
+   ```npm install socket.io
+   ```
+
+5. **Running the Server:**
 
    ```
    node server.js
