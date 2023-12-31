@@ -1,5 +1,5 @@
 
-# Anonymous Chat - Node.js Chat Application
+# Terminal Whisper - Node.js Chat Application
 
 Welcome to the Anonymous Chat Node.js Application! This simple chat allows users to communicate
 anonymously in real-time using a terminal.
@@ -21,7 +21,7 @@ anonymously in real-time using a terminal.
 2. **Navigate to the Server directory:**
 
    ```
-   cd Anonymous-Chat
+   cd Terminal-Whisper
    ```
 
 3. **Install server dependencies (including Socket.io):**
@@ -63,7 +63,7 @@ Certainly! Here's the updated client installation section in the README.md, emph
 2. **Navigate to the Client directory:**
 
    ```
-   cd Anonymous-Chat
+   cd Terminal-Whisper
    ```
 
 3. **Install client dependencies (including Socket.io-client and readline):**
@@ -97,7 +97,7 @@ Certainly! Here's the updated client installation section in the README.md, emph
 1. **Start the client:**
 
    ```
-   node chat-client.js
+   node client.js
    ```
 
 2. **Start chatting!**
@@ -116,7 +116,7 @@ Certainly! Here's the updated client installation section in the README.md, emph
 ## Contributing
 
 Feel free to contribute to the project by submitting issues or pull requests on 
-the [GitHub repository](https://github.com/AnIntellectualBeing/Anonymous-Chat).
+the [GitHub repository](https://github.com/AnIntellectualBeing/Terminal-Whisper).
 
 ## License
 
