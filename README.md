@@ -31,8 +31,8 @@ anonymously in real-time using a terminal.
 3. **Install server dependencies (including Socket.io):**
    ```bash
    sudo apt update
-   sudo apt install nodejs npm express
-   npm install socket.io
+   sudo apt install nodejs npm 
+   npm install socket.io express
    ```
 
 5. **Running the Server:**
