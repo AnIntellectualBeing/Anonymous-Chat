@@ -30,17 +30,18 @@ anonymously in real-time using a terminal.
 
 3. **Install server dependencies (including Socket.io):**
 
-   ```
+   
    # Update the package list and install Node.js and npm
    ```
    sudo apt update
+   
    ```
-   ```
-   sudo apt install nodejs npm
+    sudo apt install nodejs npm
    ```
 
    # Install socket.io as a dependency
-   ```npm install socket.io
+   ```
+   npm install socket.io
    ```
 
 5. **Running the Server:**
