@@ -1,7 +1,7 @@
 
 # Terminal Whisper - Node.js Chat Application
 
-Welcome to the Anonymous Chat Node.js Application! This simple chat allows users to communicate
+Welcome to the Terminal Whisper Chat Node.js Application! This simple chat allows users to communicate
 anonymously in real-time using a terminal.
 
 ## Server Setup
