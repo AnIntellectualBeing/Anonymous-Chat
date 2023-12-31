@@ -68,7 +68,7 @@ anonymously in real-time using a terminal.
    ```
    # Update the package list and install Node.js and npm
    sudo apt update
-   sudo apt install nodejs npm
+   sudo apt install nodejs npm 
 
    # Install socket.io-client and readline as dependencies
    npm install socket.io-client readline
