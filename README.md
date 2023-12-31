@@ -49,8 +49,6 @@ anonymously in real-time using a terminal.
 
 - Node.js and npm installed on the client machine.
 
-Certainly! Here's the updated client installation section in the README.md, emphasizing the need to customize the Socket.io server URL:
-
 
 ### Client Installation
 
