@@ -19,7 +19,7 @@ anonymously in real-time using a terminal.
 1. **Clone the GitHub repository:**
 
    ```
-   git clone https://github.com/AnIntellectualBeing/Anonymous-Chat.git
+  https://github.com/AnIntellectualBeing/Terminal-Whisper.git
    ```
 
 2. **Navigate to the Server directory:**
