@@ -5,7 +5,7 @@ Welcome to the Terminal Whisper Chat Node.js Application! This simple chat allow
 anonymously in real-time using a terminal.
 
 
-<img src="https://www.svgrepo.com/show/361365/terminal-bash.svg" alt="Terminal Icon" width="200" height="200">
+<img src="https://www.svgrepo.com/show/354445/terminal.svg" alt="Terminal Icon" width="200" height="200">
 
 
 ## Server Setup
