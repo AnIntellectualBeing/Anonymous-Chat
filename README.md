@@ -4,6 +4,12 @@
 Welcome to the Terminal Whisper Chat Node.js Application! This simple chat allows users to communicate
 anonymously in real-time using a terminal.
 
+
+<svg width="20" height="20" xmlns="https://www.svgrepo.com/show/361365/terminal-bash.svg" fill="currentColor" class="bi bi-terminal" viewBox="0 0 16 16">
+  <path d="M.75 0A.75.75 0 0 0 0 .75v14.5a.75.75 0 0 0 1.5 0V.75A.75.75 0 0 0 .75 0zM5 1.5a.5.5 0 0 0-1 0V14a.5.5 0 0 0 1 0V1.5zm2 .5a.5.5 0 0 0-1 0V14a.5.5 0 0 0 1 0V2zm6-1a.5.5 0 0 0-1 0V14a.5.5 0 0 0 1 0V1.5z"/>
+</svg>
+
+
 ## Server Setup
 
 ### Prerequisites
