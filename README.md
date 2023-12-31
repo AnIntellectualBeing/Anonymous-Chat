@@ -98,7 +98,7 @@ anonymously in real-time using a terminal.
    ```
 
 2. **Start chatting!**
-```
+
 # Features
 
 - Real-time anonymous chat.
@@ -118,5 +118,5 @@ the https://github.com/AnIntellectualBeing/Terminal-Whisper.
 # License
 
 This project is licensed under the MIT License.
-```
+
 
