@@ -54,7 +54,7 @@ anonymously in real-time using a terminal.
 1. **Clone the GitHub repository on the client machine:**
 
    ```
-   https://github.com/AnIntellectualBeing/Terminal-Whisper.git
+   git clone https://github.com/AnIntellectualBeing/Terminal-Whisper.git
    ```
 
 2. **Navigate to the Client directory:**
